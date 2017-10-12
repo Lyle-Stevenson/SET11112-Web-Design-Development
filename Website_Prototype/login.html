@@ -1,112 +1,120 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- Some of the website design ideas were taken from the website  
+	 http://www.rewardfoundation.org/. A website that I previously
+	 helped develop in the Professional Practice module of my undergrad degree
+-->
+
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-   
-
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
     <title>Napier Pizza Devlivery</title>
-	
-    <link rel="stylesheet" href="css/StyleSheet.css">
-	
+    <link rel="stylesheet" href="css/StyleSheet.css" />
   </head>
-
   <body>
-	  <div class="site">
-		<div class="header-wrapper">
-			<div class ="site-logo">
-			<!-- <img src="img/napierlogo.png" alt="" class="img-responsive"> -->
-			</div>
-			<div class="site-name">
-				<h1>Napier Pizza Delivery</h1>
-				<h2>Hot Pizza in no time</h2>
-			</div>
-		</div>
-		<div class="ruler"></div>  
-		<div class="navbar">
-			<ul class="nav-items">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="pizza.html">Pizza</a></li>
-				<li><a href="#">Sides</a></li>
-				<li><a href="#">Drinks</a></li>
-				<li><a href="#">Basket</a></li>
-				<li><a href="login.html">Login</a></li>
-			</ul>
-		</div>
-		<div class="ruler"></div>  
-		<div class="background-form">
-			<div class="formbox-register">
-				<form action="/action_page.php">
-					Username:<br>
-					<input type="text" name="username" value="">
-					<br>
-					<br>
-					First name:<br>
-					<input type="text" name="firstname" value="">
-					<br>
-					<br>
-					Last name:<br>
-					<input type="text" name="lastname" value="">
-					<br>
-					<br>
-					Password:<br>
-					<input type="text" name="password" value="">
-					<br>
-					<br>
-					Retype Password:<br>
-					<input type="text" name="retypepassword" value="">
-					<br>
-					<br>
-					Email:<br>
-					<input type="text" name="email" value="">
-					<br>
-					<br>
-					Phone number:<br>
-					<input type="text" name="email" value="">
-					<br>
-					<br>
-					Address:<br>
-					<input type="text" name="housenumber" value="House number">
-					<br>
-					<br>
-					<input type="text" name="street" value="Street">
-					<br>
-					<br>
-					<input type="text" name="postcode" value="Postcode">
-					<br><br>
-					<input type="submit" value="Register">
-				</form>
-			</div>
-			
-			<div class="formbox-login">
-				<form action="/action_page.php">
-					Username:<br>
-					<input type="text" name="username" value="">
-					<br>
-					<br>
-					Password:<br>
-					<input type="text" name="password" value="">
-					<br>
-					<br>
-					<input type="submit" value="Log in">
-				</form>
-			</div>
-		</div>
-
-			
-			<div class="ruler"></div>  
-			
-		  
-		  <div class="footer-wrapper">
-				<div class="footer">
-				  Images from: <a href="https://www.pexels.com/">https://www.pexels.com/</a><a href="https://pixabay.com/">https://pixabay.com/</a>
-				</div>
-		  </div>
-
-
-		</div>
+    <div class="site">
+      	   <!-- Header -->
+      <div class="header-wrapper">
+        <div class="site-name">
+          <h1>Napier Pizza Delivery</h1>
+          <h2>Hot Pizza in no time</h2>
+        </div>
+      </div>
+	  <!-- Navigation bar -->
+      <div class="navbar">
+		<!-- Navigation links -->
+        <ul class="nav-items">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="pizza.html">Pizza</a>
+          </li>
+          <li>
+            <a href="#">Sides</a>
+          </li>
+          <li>
+            <a href="#">Drinks</a>
+          </li>
+          <li>
+            <a href="#">Cart</a>
+          </li>
+          <li>
+            <a href="login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+	  <!-- Ruler class that puts a thin line across page to separate areas of the page -->
+      <div class="ruler"></div>
+      <div class="background-form">
+		<!-- Form box for user registration -->
+        <div class="formbox-register">
+          <form action="/action_page.php">Username:
+          <br />
+          <input type="text" name="username" value="" />
+          <br />
+          <br />First name:
+          <br />
+          <input type="text" name="firstname" value="" />
+          <br />
+          <br />Last name:
+          <br />
+          <input type="text" name="lastname" value="" />
+          <br />
+          <br />Password:
+          <br />
+          <input type="text" name="password" value="" />
+          <br />
+          <br />Retype Password:
+          <br />
+          <input type="text" name="retypepassword" value="" />
+          <br />
+          <br />Email:
+          <br />
+          <input type="text" name="email" value="" />
+          <br />
+          <br />Phone number:
+          <br />
+          <input type="text" name="email" value="" />
+          <br />
+          <br />Address:
+          <br />
+          <input type="text" name="housenumber" value="House number" />
+          <br />
+          <br />
+          <input type="text" name="street" value="Street" />
+          <br />
+          <br />
+          <input type="text" name="postcode" value="Postcode" />
+          <br />
+          <br />
+          <input type="submit" value="Register" /></form>
+        </div>
+		<!-- Form box for user login -->
+        <div class="formbox-login">
+          <form action="/action_page.php">Username:
+          <br />
+          <input type="text" name="username" value="" />
+          <br />
+          <br />Password:
+          <br />
+          <input type="text" name="password" value="" />
+          <br />
+          <br />
+          <input type="submit" value="Log in" /></form>
+        </div>
+      </div>
+	  <!-- Ruler class that puts a thin line across page to separate areas of the page -->
+      <div class="ruler"></div>
+      <div class="footer-wrapper">
+	  <!-- References for the images used in this site. -->
+        <div class="footer">Images from: 
+        <a href="https://www.pexels.com/">https://www.pexels.com/</a>
+        <a href="https://pixabay.com/">https://pixabay.com/</a></div>
+      </div>
+    </div>
   </body>
 </html>

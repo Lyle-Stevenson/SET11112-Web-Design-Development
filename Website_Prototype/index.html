@@ -1,110 +1,120 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- Some of the website design ideas were taken from the website 
+	 http://www.rewardfoundation.org/. A website that I previously
+	 helped develop in the Professional Practice module of my undergrad degree
+-->
+
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-   
-
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
     <title>Napier Pizza Devlivery</title>
-	
-    <link rel="stylesheet" href="css/StyleSheet.css">
-	
+    <link rel="stylesheet" href="css/StyleSheet.css" />
   </head>
-
   <body>
-	  <div class="site">
-		<div class="header-wrapper">
-			<div class ="site-logo">
-<!-- 			<img src="img/napierlogo.png" alt="" class="img-responsive"> -->
-			</div> 
-			<div class="site-name">
-				<h1>Napier Pizza Delivery</h1>
-				<h2>Hot Pizza in no time</h2>
-			</div>
-		</div>
-		
-		<div class="navbar">
-			<ul class="nav-items">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="pizza.html">Pizza</a></li>
-				<li><a href="#">Sides</a></li>
-				<li><a href="#">Drinks</a></li>
-				<li><a href="#">Basket</a></li>
-				<li><a href="login.html">Login</a></li>
-			</ul>
-		</div>
-		
-		<div class="container">
-		
-			<div class="box-row">
-				<div class="background-box">	
-					<div class="box pizza">
-						<div class="thumbnail">
-						  <img src="img/img1.jpeg" alt="" class="img-responsive">
-							  <div class="caption">
-								<h1>Pizza</h1>
-								<p>Great tasting pizzas for everyone.</p>
-								<a class="btn" href="pizza.html">more</a>
-							  </div>
-						</div>
-					</div>
-				</div>	
-				
-				<div class="background-box">	
-					<div class="box drink">
-						<div class="thumbnail">
-							<img src="img/img2.jpg" alt="" class="img-responsive">
-								<div class="caption">
-								  <h1>Drinks</h1>
-								  <p>All the drinks you could need to quench that mighty thirst.</p>
-								  <a class="btn" href="#">more</a>
-								</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-			<div class="box-row">
-				<div class="background-box">		 
-					<div class="box dessert">
-						<div class="thumbnail">
-						  <img src="img/img4.jpeg" alt="" class="img-responsive">
-							  <div class="caption">
-								<h1>Desert</h1>
-								<p>Complete your meal with a lovely desert.</p>
-								<a class="btn" href="#">more</a>
-							  </div>
-						</div>
-					</div>
-				</div>
-				
-				<div class="background-box">	
-					<div class="box basket">
-						<div class="thumbnail">
-						  <img src="img/img3.jpeg" alt="" class="img-responsive">
-							  <div class="caption">
-								<h1>Basket</h1>
-								<p>Complete your order now.</p>
-								<a class="btn" href="#">Checkout</a>
-							  </div>
-						</div>
-					</div>	  
-				</div> 
-			</div>
-
-		</div>
-		
-			<div class="ruler"></div>  
-			
-		  
-		  <div class="footer-wrapper">
-				<div class="footer">
-				Images from: <a href="https://www.pexels.com/">https://www.pexels.com/</a><a href="https://pixabay.com/">https://pixabay.com/</a>
-				</div>
-		  </div>
-	</div>	
+    <div class="site">
+      <!-- Header -->
+      <div class="header-wrapper">
+        <div class="site-name">
+          <h1>Napier Pizza Delivery</h1>
+          <h2>Hot Pizza in no time</h2>
+        </div>
+      </div>
+	  <!-- Navigation bar -->
+      <div class="navbar">
+		<!-- Navigation links -->
+        <ul class="nav-items">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="pizza.html">Pizza</a>
+          </li>
+          <li>
+            <a href="#">Sides</a>
+          </li>
+          <li>
+            <a href="#">Drinks</a>
+          </li>
+          <li>
+            <a href="#">Cart</a>
+          </li>
+          <li>
+            <a href="login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+	  <!-- Ruler class that puts a thin line across page to separate areas of the page -->
+	  <div class="ruler"></div>
+	  <!-- Contents of the page -->
+      <div class="container">
+        <div class="box-row">
+          <div class="background-box">
+			<!-- Main page boxes -->
+            <div class="box pizza">
+              <div class="thumbnail">
+				<!-- Box images -->
+                <img src="img/img1.jpeg" alt="" class="img-responsive" />
+                <div class="caption">
+                  <h1>Pizza</h1>
+                  <p>Great tasting pizzas for everyone.</p>
+				  <!-- Button with link to website area -->
+                  <a class="btn" href="pizza.html">Click to see pizzas</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="background-box">
+            <div class="box drink">
+              <div class="thumbnail">
+                <img src="img/img2.jpg" alt="" class="img-responsive" />
+                <div class="caption">
+                  <h1>Drinks</h1>
+                  <p>All the drinks you could need to quench that mighty thirst.</p>
+                  <a class="btn" href="#">Click to see drinks</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box-row">
+          <div class="background-box">
+            <div class="box dessert">
+              <div class="thumbnail">
+                <img src="img/img4.jpeg" alt="" class="img-responsive" />
+                <div class="caption">
+                  <h1>Dessert</h1>
+                  <p>Complete your meal with a lovely dessert.</p>
+                  <a class="btn" href="#">Click to see desserts</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="background-box">
+            <div class="box basket">
+              <div class="thumbnail">
+                <img src="img/img3.jpeg" alt="" class="img-responsive" />
+                <div class="caption">
+                  <h1>Cart</h1>
+                  <p>Complete your order now.</p>
+                  <a class="btn" href="#">Checkout</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <!-- Ruler class that puts a thin line across page to separate areas of the page -->
+      <div class="ruler"></div>
+      <div class="footer-wrapper">
+	  <!-- References for the images used in this site. -->
+        <div class="footer">Images from: 
+        <a href="https://www.pexels.com/">https://www.pexels.com/</a>
+        <a href="https://pixabay.com/">https://pixabay.com/</a></div>
+      </div>
+    </div>
   </body>
 </html>

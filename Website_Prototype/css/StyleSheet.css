@@ -1,15 +1,18 @@
+/* Colours the background of the website */
 body{
 	background-color: #062F4F;
 	margin: 0px;
 }
 
+/* Creates an area to display the website content in*/
 .site{
-	background-color: #fff;
+	background-color: #f7f7f7;
 	margin-left: 200px;
 	margin-right: 200px;
 	box-shadow: 0 0 5px rgba(0,0,0,0.125)
 }
 
+/* Centers the website title*/
 .header-wrapper{
 	overflow: hidden; 
 	text-align: center; 
@@ -18,13 +21,7 @@ body{
 	display:block;
 }
 
-.site-logo{
-	float: center;
-	display:inline-block;
-}
-.site-name{
-	float: center;
-}
+/*Formats the website title*/
 .site-name h1{
 	margin: 0; 
 	font-size: 44px; 
@@ -33,40 +30,34 @@ body{
 	letter-spacing: 2px;
 }
 	
+/* Formats the website tagline */	
 .site-name h2{
 	font-size: 18px; 
 	line-height: 24px; 
 	color: #062F4F; 
 }
+
+/* Separates the navigation bar from teh website content*/
 .navbar{
 	margin-bottom: 50px;
 }
 
+/* Adds styling to the navbar*/
 .navbar ul {
   box-shadow: 0px 5px 16px rgba(0,0,0,0.3);
   list-style: none;
-  background-color: #fff;
+  background-color: #f7f7f7;
   text-align: center;
   padding: 0;
   margin: 0;
 }
-.navbar li {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.2em;
-  line-height: 40px;
-  height: 40px;
-}
- 
+
 .navbar li {
   width: 120px;
   height: 50px;
   line-height: 50px;
   font-size: 1.4em;
-}
- 
-.navbar li {
   display: inline-block;
-  margin-right: -4px;
 }
  
 .navbar a {
@@ -78,38 +69,21 @@ body{
  
 .navbar a:hover {
   background-color: #062F4F;
-  color: #fff;
-}
- 
-.container{
-	display: block;
-	border-spacing: collapse;
+  color: #f7f7f7;
 }
 
+/* Styles the boxes used in the website content*/
 .box, .box-pizza {
 	position: relative;
 	border-radius: 36px;
-	background-color: #fff;
+	background-color: #f7f7f7;
     box-shadow: 0px 5px 16px rgba(0,0,0,0.3);
     height: auto;
     padding: 28px;
 	width: auto;
 	display: inline-block;
 }
-
-.pizza-thumbnail img {
-   width: 300px;
-   height: 200px;
-}
-
-.box h1, .box-pizza h1{
-	color:#062F4F;
-}
-
-.box-row{
-	text-align:center;
-}
-
+/*Styles the background boxes of the main content boxes*/
 .background-box{
 	position: relative;
 	border-radius: 36px;
@@ -122,12 +96,30 @@ body{
 	display: inline-block;
 }
 
+/*Ensures all pizza picutres are the same size*/
+.pizza-thumbnail img {
+   width: 300px;
+   height: 200px;
+}
+
+
+.box h1, .box-pizza h1{
+	color:#062F4F;
+}
+
+/*Centers the content boxes*/
+.box-row{
+	text-align:center;
+}
+
+/*Creates a line that separates the different areas of the page*/
 .ruler{ 
 	border-bottom: 1px solid #c9c9c9;
 }
 
+/* Formats the footer */
 .footer-wrapper{
-	background-color: #fff;
+	background-color: #f7f7f7;
 	overflow: hidden; 
 	text-align: center; 
 	padding-top: 50px; 
@@ -139,9 +131,10 @@ body{
 	display: block;
 }
 
+/* styles the form boxes for login and register */
 .formbox-register, .formbox-login{
 	border-radius: 36px;
-	background-color: #fff;
+	background-color: #f7f7f7;
     box-shadow: 0px 5px 16px rgba(0,0,0,0.3);
     min-height: auto;
     padding: 28px;
@@ -150,7 +143,7 @@ body{
 	display: inline-flex;
 	vertical-align: middle
 }
-
+ 
 .background-form {
 	border-radius: 36px;
 	background-color: #062F4F;
@@ -164,8 +157,6 @@ body{
 	text-align:center;
 }
 
-form{
-	display: block;
-    text-align: center;
+form{   
 	margin: auto;
 }
